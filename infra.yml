@@ -1,0 +1,7 @@
+---
+- name: Tests Grafana role
+  hosts: all
+  gather_facts: yes
+  become: true
+  roles:
+    - grafana

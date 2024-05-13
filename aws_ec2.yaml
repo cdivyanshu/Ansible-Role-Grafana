@@ -1,0 +1,14 @@
+---
+plugin: aws_ec2
+
+regions:
+   - ap-south-1
+
+filters:
+  tag:Name:
+    - "deploy-private2-ec2"
+    - "deploy-private1-ec2"
+
+compose:
+    ansible_host: private_ip_address
+

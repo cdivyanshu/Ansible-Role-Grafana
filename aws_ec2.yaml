@@ -6,8 +6,8 @@ regions:
 
 filters:
   tag:Name:
-    - "deploy-private2-ec2"
-    - "deploy-private1-ec2"
+    - "grafana2"
+    - "grafana1"
 
 compose:
     ansible_host: private_ip_address
